@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[XPNetworking postWithUrl:&lt;#URI#&gt;
+                 refreshCache:YES
+                       params:&lt;#param#&gt;
+                      success:^(id response) {
+        
+    } fail:^(NSError *error) {
+        LogError(@"=============== error ==================");
+        LogError(@"%@", error);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EC655424-ECA0-49A9-A208-EE01133D5710</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>post 请求</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xp</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
