@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>napi</string>
+	<string>didInitializedWithStyle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString * const kNet&lt;#name#&gt; = @"&lt;#api#&gt;";</string>
+	<string>- (void)didInitializedWithStyle:(UITableViewStyle)style {
+    [super didInitializedWithStyle:style];
+    &lt;##&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B96D0D6E-D648-4525-B707-F8D00AC05B86</string>
+	<string>B3C9D170-9C76-4214-9490-27C8AD9E6641</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>API常量</string>
+	<string>didInitializedWithStyle:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

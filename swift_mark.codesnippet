@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>napi</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString * const kNet&lt;#name#&gt; = @"&lt;#api#&gt;";</string>
+	<string>// MARK: - &lt;#content#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B96D0D6E-D648-4525-B707-F8D00AC05B86</string>
+	<string>CA2A174D-7287-4F7D-B1C4-D01E0C13679F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>API常量</string>
+	<string>Pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

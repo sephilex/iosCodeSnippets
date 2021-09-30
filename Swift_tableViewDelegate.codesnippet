@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>napi</string>
+	<string>tvd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString * const kNet&lt;#name#&gt; = @"&lt;#api#&gt;";</string>
+	<string>// MARK: - UITableViewDelegate
+extension &lt;#class#&gt;: UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B96D0D6E-D648-4525-B707-F8D00AC05B86</string>
+	<string>9218E985-237D-463C-8C09-0FFD0BF01EAC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>API常量</string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

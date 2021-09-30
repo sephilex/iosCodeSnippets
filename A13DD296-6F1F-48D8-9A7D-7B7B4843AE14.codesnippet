@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupNavigationItems</string>
+	<string>setToolbarItems</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)setupNavigationItems {
-    [super setupNavigationItems];
-    self.title = @"&lt;##&gt;";
+	<string>- (void)setToolbarItemsIsInEditMode:(BOOL)isInEditMode animated:(BOOL)animated {
+    [super setToolbarItemsIsInEditMode:isInEditMode animated:animated];
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DC0DDC5E-D32D-49BF-A61E-06403ADBB977</string>
+	<string>A13DD296-6F1F-48D8-9A7D-7B7B4843AE14</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>设置 navigationItem</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>setupNavigationItems</string>
+	<string>setToolbarItems</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>napi</string>
+	<string>RxBinder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString * const kNet&lt;#name#&gt; = @"&lt;#api#&gt;";</string>
+	<string>// MARK: - Reactive-Extension
+extension Reactive where Base: &lt;#class#&gt; {
+    
+    var &lt;#name#&gt;: Binder&lt;&lt;#type#&gt;&gt; {
+        
+        return Binder(base) { target, value in
+            
+            &lt;#code#&gt;
+        }
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B96D0D6E-D648-4525-B707-F8D00AC05B86</string>
+	<string>DC3F6CCF-2B5D-4A17-BDB1-A95B22F38289</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>API常量</string>
+	<string>RxSwift Binder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
