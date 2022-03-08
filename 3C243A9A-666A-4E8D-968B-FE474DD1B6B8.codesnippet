@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>enum</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>enum &lt;#name#&gt;Api {
+    case &lt;#xxx#&gt;
+}
+
+extension &lt;#name#&gt;Api: TargetType {
+    var baseURL: URL {
+        switch self {
+        case &lt;#xxx#&gt;:
+            return URL(string: &lt;#urlString#&gt;)!
+        }
+    }
+    
+    var path: String {
+        switch self {
+        case &lt;#xxx#&gt;: return "&lt;#path#&gt;"
+        }
+    }
+    
+    var method: Moya.Method {
+        switch self {
+        default : return .post;
+        }
+    }
+    
+    var headers: [String : String]? {
+        switch self {
+        case .login:
+            return nil
+        default:
+            return nil
+        }
+    }
+    
+    // TODO: 上传、下载
+    var task: Task {
+        switch self {
+        default:
+            if let parameters = parameters {
+                return .requestParameters(parameters: parameters,
+                                          encoding: URLEncoding.default)
+            }else {
+                return .requestPlain
+            }
+        }
+    }
+    
+    var parameters: [String: Any]? {
+        var params: [String: Any] = [:]
+        switch self {
+        default: break
+        }
+        return params
+    }
+    
+//    var sampleData: Data {
+//        var dataUrl: URL?
+//        switch self {
+//        case .login: dataUrl = R.file.loginJson()
+//        default: break
+//        }
+//        if let url = dataUrl, let data = try? Data(contentsOf: url) {
+//            return data
+//        }else {
+//            return Data()
+//        }
+//    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3C243A9A-666A-4E8D-968B-FE474DD1B6B8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Moya Enum</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
